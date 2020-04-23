@@ -15,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
   },
   tab: {
       '& .MuiAppBar-root': {
-          borderTopLeftRadius: 16,
-          borderTopRightRadius: 16
+          borderTopLeftRadius: theme.shape.borderRadius * 4,
+          borderTopRightRadius: theme.shape.borderRadius * 4
       }
   }
 }));
